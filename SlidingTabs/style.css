@@ -1,0 +1,52 @@
+body
+{
+    color: black;
+    position: relative;
+    height: 90vh;
+    background-image: linear-gradient(to right, rgb(23, 22, 22), rgb(87, 69, 87), rgb(93, 58, 93));
+}
+.contanier
+{
+    width: 630px;
+    height: 50px;
+    display: flex;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 25px;
+    background-color:white;
+    box-shadow:black 5px 5px 10px 5px;
+}
+
+#slider
+{
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #070ede;
+    opacity: 0.4;
+    transition: 1s;
+    left: 17px;  
+    top: 5px;
+    bottom:5px;
+    right: 17px;
+}
+
+.btn{ 
+    justify-content: center;
+    height: 50px;
+    width:130px ;
+    display:flex;
+} 
+
+button
+{
+    font-family:cursive;
+    width: 90px;
+    height: 50px; 
+    background-color: white;
+    border-radius: 25px;
+    border:none;
+}
