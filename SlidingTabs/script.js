@@ -72,7 +72,7 @@ function FirstButton()
             var slider=document.getElementById('slider');
             firstButton.style.color="black";
             secondButton.style.color="black";
-            thirdButton.style.color="#black";
+            thirdButton.style.color="black";
             fourthButton.style.color="black";
             fifthButton.style.color="#0b57ba";
             slider.style.left="520px";
